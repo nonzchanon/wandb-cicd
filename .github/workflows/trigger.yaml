@@ -1,0 +1,17 @@
+name: trigger-demo
+on:
+  push: 
+    branches:
+      - main ### need to filter here
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  trigger-demo:
+    runs-on: ubuntu-lastest 
+    steps: 
+      - run: echo "hello"
+
+
+  
+  
