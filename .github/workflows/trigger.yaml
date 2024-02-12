@@ -10,7 +10,7 @@ jobs:
   trigger-demo:
     runs-on: ubuntu-lastest 
     steps: 
-      - run: echo "hello"
+      - run: echo "hello v2"
 
 
   
